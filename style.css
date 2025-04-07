@@ -1,0 +1,23 @@
+p {
+    color: #FBB117;
+    transition: color 1.0 ease;
+}
+
+p:hover {
+    color: #202E54; /* Color on hover */
+}
+
+a {
+    text-decoration: none; /* no underline */
+  }
+
+.row1 {
+    background-color: #202E54;
+    transition: color 1.0s ease;
+    border: 2px solid black; /* Black border */
+}
+
+.row1:hover {
+    background-color: #FBB117; /* Color on hover */
+}
+
