@@ -15,9 +15,21 @@ a {
     background-color: #202E54;
     transition: color 1.0s ease;
     border: 2px solid black; /* Black border */
+    text-align: center;
 }
 
 .row1:hover {
     background-color: #FBB117; /* Color on hover */
 }
 
+.nav1 {
+    width: 200px;
+}
+
+body {
+    background-color: #bebec7;
+}
+
+img {
+    mix-blend-mode: multiply; /* This will remove the white background */
+  }
