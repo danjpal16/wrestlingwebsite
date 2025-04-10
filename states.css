@@ -1,0 +1,61 @@
+body {
+    background-color: #bebec7;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  .side-navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #100901;
+    transition: 0.5s;
+  }
+  
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #ffffff26;
+  }
+  
+  .my-container {
+    transition: 0.4s;
+  }
+  
+  .active-nav {
+    margin-left: 0;
+  }
+  
+  /* for main section */
+  .active-cont {
+    margin-left: 250px;
+  }
+  
+  #menu-btn {
+    background-color: #100901;
+    color: #fff;
+    margin-left: -62px;
+  }
+  
+  .my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+  }
+
+  /* Ensure the image fits perfectly in the sidebar */
+.sidebar-logo {
+    width: 100%; /* Make the image span the full width of its container */
+    max-width: 200px; /* Optional: Limit maximum width for better scaling */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the entire image is visible without cropping */
+    margin-top: 20px; /* Add spacing above the image */
+    margin-bottom: 20px; /* Add spacing below the image */
+}
