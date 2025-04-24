@@ -59,3 +59,11 @@ body {
     margin-top: 20px; /* Add spacing above the image */
     margin-bottom: 20px; /* Add spacing below the image */
 }
+
+.button1 {
+  background-color: #202E54;
+}
+
+.ptag {
+  color: #FBB117;
+}
