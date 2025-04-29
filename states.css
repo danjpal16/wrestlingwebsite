@@ -16,14 +16,16 @@ body {
     height: 100%;
     position: fixed;
     margin-left: -300px;
-    background-color: #100901;
+    background-color: #202E54;
+    color: #FBB117;
     transition: 0.5s;
   }
   
   .nav-link:active,
   .nav-link:focus,
   .nav-link:hover {
-    background-color: #ffffff26;
+    background-color: #FBB117;
+    color: #202E54;
   }
   
   .my-container {
@@ -38,10 +40,21 @@ body {
   .active-cont {
     margin-left: 250px;
   }
+
+  .top-navbar {
+    background-color: #202E54;
+  }
   
   #menu-btn {
-    background-color: #100901;
-    color: #fff;
+    background-color: #202E54;
+    color: #FBB117;
+    margin-left: -62px;
+    transition: 0.5s;
+  }
+  
+  #menu-btn:hover {
+    background-color: #FBB117;
+    color: #202E54;
     margin-left: -62px;
   }
   
@@ -62,8 +75,20 @@ body {
 
 .button1 {
   background-color: #202E54;
+  color: #FBB117;
+  transition: 0.5s;
+}
+
+.button1:hover {
+  background-color: #FBB117;
+  color: #202E54;
+  transition: 0.5s;
 }
 
 .ptag {
   color: #FBB117;
+}
+
+.ptag:hover {
+  color: #202E54;
 }
