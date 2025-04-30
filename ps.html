@@ -11,7 +11,7 @@
     <!-- BOX ICONS CSS-->
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
     <!-- custom css -->
-    <link rel="stylesheet" href="states.css" />
+    <link rel="stylesheet" href="/css/ps.css" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <!-- Responsive image with custom styling -->
-                <img src="mmlogo.png" alt="Logo" class="img-fluid sidebar-logo">
+                <img src="/imgs/mmlogo.png" alt="Logo" class="img-fluid sidebar-logo">
             </div>
         </div>
         <ul class="nav flex-column text-white w-100">
@@ -76,15 +76,43 @@
         <!--End Top Nav -->
     </div>
 
-    <div class="container container-fluid justify-content-center align-items-center">
+    <div class="container my-4">
+        <div id="photoBooth" class="text-center p-3 rounded shadow-sm mx-auto">
+            <h1 class="banner mb-3">Marlboro Wrestling 2020-2025 Seasons</h1>
+            <div id="slideShow" class="row justify-content-center">
 
+                <!-- Photo Holder Section -->
+                <div class="col-12 col-md-8 photoHolder mb-3">
+                    <img class="thumbnail img-fluid" id="photo"
+                        src="https://via.placeholder.com/518x389?text=Welcome+to+my+Gallery" alt="Gallery Image" />
+                </div>
+
+                <!-- More Indicator and Navigation Controls -->
+                <div class="col-12 text-center my-2">
+                    <img class="moreIndicator rot90 img-fluid" src="imgs/more.png" alt="More Content" />
+                </div>
+                <div id="nav" class="col-12 d-flex justify-content-between">
+                    <img id="prevPhoto" class="rot180 img-fluid" src="imgs/arrow.png" alt="Previous Photo" />
+                    <img id="nextPhoto" class="img-fluid" src="imgs/arrow.png" alt="Next Photo" />
+                </div>
+
+                <!-- Photo Details Section -->
+                <div class="col-12 details mt-3 p-2">
+                    <p class="name">Record: </p>
+                    <p class="rank">Rank: </p>
+                    <p class="rating">Rating: </p>html/
+                    <p class="airtime">Air Time: </p>
+                    <p class="description">Description: </p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
 
 
     <!-- bootstrap js -->
-    <script src="script.js"></script>
+    <script src="java/ps.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
