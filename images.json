@@ -5,80 +5,30 @@
             "imgName": "Breaking Bad",
             "imgRank": "1",
             "imgRating": "9.5/10",
-            "imgAirtime": "2008-2013",
-            "imgDescription": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future."
         },
         {
             "imgPath": "img/places/bandofbrothers.jpg",
             "imgName": "Band of Brothers",
             "imgRank": "2",
             "imgRating": "9.4/10",
-            "imgAirtime": "2001",
-            "imgDescription": "The story of Easy Company of the U.S. Army 101st Airborne Division and their mission in World War II Europe, from Operation Overlord to V-J Day."
         },
         {
             "imgPath": "img/places/chernobyl.jpg",
             "imgName": "Chernobyl",
             "imgRank": "3",
             "imgRating": "9.3/10",
-            "imgAirtime": "2019",
-            "imgDescription": "In April 1986, a huge explosion erupted at the Chernobyl nuclear power station in northern Ukraine. This series follows the stories of the men and women, who tried to contain the disaster, as well as those who gave their lives preventing a subsequent and worse one."
         },
         {
             "imgPath": "img/places/thewire.jpg",
             "imgName": "The Wire",
             "imgRank": "4",
             "imgRating": "9.3/10",
-            "imgAirtime": "2002-2008",
-            "imgDescription": "The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement."
         },
         {
             "imgPath": "img/places/avatar.jpg",
             "imgName": "Avatar: The Last Airbender",
             "imgRank": "5",
             "imgRating": "9.3/10",
-            "imgAirtime": "2005-2008",
-            "imgDescription": "In a war-torn world of elemental powers, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world."
-        },
-        {
-            "imgPath": "img/places/thesopranos.jpg",
-            "imgName": "The Sopranos",
-            "imgRank": "6",
-            "imgRating": "9.2/10",
-            "imgAirtime": "1999-2007",
-            "imgDescription": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling."
-        },
-        {
-            "imgPath": "img/places/got.jpg",
-            "imgName": "Game of Thrones",
-            "imgRank": "7",
-            "imgRating": "9.2/10",
-            "imgAirtime": "2011-2019",
-            "imgDescription": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia."
-        },
-        {
-            "imgPath": "img/places/bluey.jpg",
-            "imgName": "Bluey",
-            "imgRank": "8",
-            "imgRating": "9.3/10",
-            "imgAirtime": "2018-",
-            "imgDescription": "The slice-of-life adventures of an Australian Blue Heeler Cattle Dog puppy as she has fun with her family and friends in everyday situations."
-        },
-        {
-            "imgPath": "img/places/fma.jpg",
-            "imgName": "Fullmetal Alchemist: Brotherhood",
-            "imgRank": "9",
-            "imgRating": "9.1/10",
-            "imgAirtime": "2009-2010",
-            "imgDescription": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms."
-        },
-        {
-            "imgPath": "img/places/ram.jpg",
-            "imgName": "Rick and Morty",
-            "imgRank": "10",
-            "imgRating": "9.1/10",
-            "imgAirtime": "2013-",
-            "imgDescription": "The fractured domestic lives of a nihilistic mad scientist and his anxious grandson are further complicated by their inter-dimensional misadventures."
         }
   ]
 }

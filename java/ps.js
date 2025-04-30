@@ -51,11 +51,9 @@ function swapPhoto () {
   // Update the .location, .description, and .date elements with the current image's details
   let imageData = mImages[mCurrentIndex];
   $('#photo').attr("src",imageData.imgPath);
-  $('.name').text("" + imageData.imgName);
-  $('.rank').text("" + imageData.imgRank);
-  $('.rating').text("" + imageData.imgRating);
-  $('.airtime').text("" + imageData.imgAirtime);
-  $('.description').text("" + imageData.imgDescription);
+  $('.record').text("" + imageData.imgName);
+  $('.placing').text("" + imageData.imgRank);
+  $('.woty').text("" + imageData.imgRating);
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
