@@ -183,3 +183,13 @@ Make it animate nicely. You'll need CSS3 for this */
 .ptag:hover {
   color: #202E54;
 }
+
+#sidebar {
+  height: 100vh;           /* Full viewport height */
+  overflow-y: auto;        /* Vertical scroll if needed */
+  top: 0;                  /* Optional: align to top */
+  left: 0;                 /* Optional: align to left */
+  width: 250px;            /* Set your sidebar width */
+  /* background: #222;     /* Optional: background color */
+  /* z-index: 1000;        /* Optional: keep it above other content */
+}

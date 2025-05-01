@@ -1,7 +1,16 @@
+var menu_btn = document.querySelector("#menu-btn");
+var sidebar = document.querySelector("#sidebar");
+var container = document.querySelector(".my-container");
+menu_btn.addEventListener("click", () => {
+  sidebar.classList.toggle("active-nav");
+  container.classList.toggle("active-cont");
+});
+
+
 let mCurrentIndex = 0 // Tracks the current image index
 let mImages = [] // Array to hold GalleryImage objects
 const mUrl = 'images.json' // Replace with actual JSON URL
-const mWaitTime = 8000 // Timer interval in milliseconds
+const mWaitTime = 10000000000000 // Timer interval in milliseconds
 
 $(document).ready(() => {
   $('.details').hide()
@@ -51,9 +60,9 @@ function swapPhoto () {
   // Update the .location, .description, and .date elements with the current image's details
   let imageData = mImages[mCurrentIndex];
   $('#photo').attr("src",imageData.imgPath);
-  $('.record').text("" + imageData.imgName);
-  $('.placing').text("" + imageData.imgRank);
-  $('.woty').text("" + imageData.imgRating);
+  $('.record').text("Record: " + imageData.imgRecord);
+  $('.placing').text("Rank: " + imageData.imgPlacing);
+  $('.woty').text("Wrestler of the Year: " + imageData.imgWOTY);
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
