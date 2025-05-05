@@ -15,7 +15,7 @@ body {
     max-width: 500px; /* Increased max-width for larger display */
     width: 90%; /* Keeps width responsive */
     margin: auto;
-    background-color: #FFC901;
+    background-color: #202E54;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
 }
@@ -39,7 +39,7 @@ body {
 .banner {
     font-size: 2rem; /* Increased font size for better readability */
     font-weight: bold;
-    color: #333;
+    color: #FBB117;
     /* Optional: Customize the text color */
 }
 
