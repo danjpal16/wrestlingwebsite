@@ -62,11 +62,10 @@ body {
 
 /* Metadata container styling */
 .details {
-    border: 1px dashed #000;
     padding: 15px;
-    background-color: #f8f9fa; /* Light background to distinguish from main area */
+    background-color: #202E54; /* Light background to distinguish from main area */
     border-radius: 4px;
-    color: #333;
+    color: #FBB117;
     font-size: 1rem; /* Slightly larger text for readability */
 }
 

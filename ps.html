@@ -56,55 +56,55 @@
                     <span class="mx-2">State Medalists</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a href="100.html" class="nav-link custom-nav-link">
-                    <span class="mx-2">100 Win Club</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="cs.html" class="nav-link custom-nav-link">
-                    <span class="mx-2">Coaching Staff</span>
-                </a>
-            </li>
         </ul>
         <div style="display: flex; justify-content: center;">
             <ul class="m-2" style="list-style-type: none; padding-left: 0;">
-                <li>Marlboro High School</li>
+                <li><b>Marlboro High School</b></li>
                 <li>95 North Main Street</li>
                 <li>Marlboro, NJ 07746</li>
                 <li>(732) 617-8393</li>
-                <li>Program Established
+                <li><b>Program Established</b>
                     <ul style="list-style-type: none; padding-left: 1em;">
                         <li>1968</li>
                     </ul>
                 </li>
-                <li>Mascot
+                <li><b>Mascot</b>
                     <ul style="list-style-type: none; padding-left: 1em;">
                         <li>Mustangs</li>
                     </ul>
                 </li>
-                <li>Colors
+                <li><b>Colors</b>
                     <ul style="list-style-type: none; padding-left: 1em;">
                         <li>Dark Blue & Gold</li>
                     </ul>
                 </li>
-                <li>Head Coach
+                <li><b>Head Coach</b>
                     <ul style="list-style-type: none; padding-left: 1em;">
                         <li>Charlie Frankel</li>
                         <li>(9th Season in 2025)</li>
                     </ul>
                 </li>
-                <li>Assistants
+                <li><b>Assistants</b>
                     <ul style="list-style-type: none; padding-left: 1em;">
                         <li>Keith Masi</li>
                         <li>William Terrell</li>
                         <li>Mike Iuliano</li>
                     </ul>
                 </li>
-                <li>Volunteers
+                <li><b>Volunteers</b>
                     <ul style="list-style-type: none; padding-left: 1em;">
                         <li>Chris Owens</li>
                         <li>Zach Vasile</li>
+                    </ul>
+                </li>
+                <li><b>100 Career Wins Club</b>
+                    <ul style="list-style-type: none; padding-left: 1em;">
+                        <li>Nick Parisi - 125</li>
+                        <li>Mitch Seigel - 116</li>
+                        <li>Vinnie Leone - 113</li>
+                        <li>Charlie Frankel - 110</li>
+                        <li>Dan Saraiva - 108</li>
+                        <li>Paul Saraiva - 106</li>
                     </ul>
                 </li>
             </ul>
@@ -122,29 +122,30 @@
 
     <div class="container my-4">
         <div id="photoBooth" class="text-center p-3 rounded shadow-sm mx-auto">
-            <h1 class="banner mb-3">Marlboro Wrestling 2021-2025 Seasons</h1>
-            <div id="slideShow" class="row justify-content-center">
-
-                <!-- Photo Holder Section -->
-                <div class="col-12 col-md-8 photoHolder mb-3">
+            <!-- Row 1: Title and Navigation Buttons -->
+            <div class="d-flex align-items-center justify-content-center mb-4">
+                <img id="prevPhoto" class="rot180 img-fluid mx-2" src="/imgs/arrow.png" alt="Previous Photo"
+                    style="width:32px; height:32px; cursor:pointer;" />
+                <h1 class="banner mb-0 mx-2">Marlboro Wrestling 2021-2025 Seasons</h1>
+                <img id="nextPhoto" class="img-fluid mx-2" src="/imgs/arrow.png" alt="Next Photo"
+                    style="width:32px; height:32px; cursor:pointer;" />
+            </div>
+        </div>
+        <!-- Row 2: Photo and Photo Details -->
+        <div class="row justify-content-center align-items-start m-3">
+            <!-- Photo Div -->
+            <div id="photoBooth" class="col-12 col-md-7 mb-3 mb-md-0 d-flex justify-content-center">
+                <div>
                     <img class="thumbnail img-fluid" id="photo"
                         src="https://via.placeholder.com/518x389?text=Welcome+to+my+Gallery" alt="Gallery Image" />
                 </div>
-
-                <!-- More Indicator and Navigation Controls -->
-                <div class="col-12 text-center my-2">
-                    <img class="moreIndicator rot90 img-fluid" src="/imgs/more.png" alt="More Content" />
-                </div>
-                <div id="nav" class="col-12 d-flex justify-content-between">
-                    <img id="prevPhoto" class="rot180 img-fluid" src="/imgs/arrow.png" alt="Previous Photo" />
-                    <img id="nextPhoto" class="img-fluid" src="/imgs/arrow.png" alt="Next Photo" />
-                </div>
-
-                <!-- Photo Details Section -->
-                <div class="col-12 details mt-3 p-2">
-                    <p class="record">Record: </p>
-                    <p class="placing">Rank: </p>
-                    <p class="woty">Wrestler of the Year: </p>
+            </div>
+            <!-- Photo Details Div -->
+            <div class="col-12 col-md-5 details p-3 text-start d-flex align-items-start">
+                <div>
+                    <p class="record"><strong>Record:</strong> </p>
+                    <p class="placing"><strong>Rank:</strong> </p>
+                    <p class="woty"><strong>Wrestler of the Year:</strong> </p>
                 </div>
             </div>
         </div>
