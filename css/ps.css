@@ -185,6 +185,18 @@ Make it animate nicely. You'll need CSS3 for this */
   transition: 0.5s;
 }
 
+.button2 {
+  background-color: #FBB117;
+  color: #202E54;
+  transition: 0.5s;
+}
+
+.button2:hover {
+  background-color: #202E54;
+  color: #FBB117;
+  transition: 0.5s;
+}
+
 .ptag {
   color: #FBB117;
 }
