@@ -59,7 +59,7 @@ function swapPhoto () {
   // Update the #photo element's src attribute with the current image's path
   // Update the .location, .description, and .date elements with the current image's details
   let imageData = mImages[mCurrentIndex];
-  $('#photo').attr("src" + imageData.imgPath);
+  $('.thumbnail').attr("src" + imageData.imgPath);
   $('.record').text("Record: " + imageData.imgRecord);
   $('.placing').text("Rank: " + imageData.imgPlacing);
   $('.woty').text("Wrestler of the Year: " + imageData.imgWOTY);
