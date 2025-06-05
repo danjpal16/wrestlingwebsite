@@ -9,6 +9,21 @@ body {
     background-color: #fff;
 }
 
+.carousel-item {
+  transition: opacity 0.7s ease-in-out;
+}
+
+/* Responsive carousel sizing */
+  #combinedCarousel {
+    max-width: 1100px;
+    width: 100%;
+  }
+  /* Optional: Add a subtle shadow and rounded corners for a modern look */
+  #combinedCarousel img {
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  }
+
 /* Main container for the slideshow and metadata */
 #photoBooth {
     padding: 25px; /* Increased padding for better spacing */
